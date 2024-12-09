@@ -30,3 +30,29 @@
     display: block;
     margin: 20px auto;
 }
+.container3{
+    position: relative;
+}
+.ico-action {
+    height: 60px;
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.ico-left {
+    left: 0;
+}
+
+.ico-left:hover {
+    transform: scale(0.8) translateX(-10px);
+}
+
+.ico-right {
+    right: 0;
+}
+
+.ico-right:hover {
+    transform: scale(0.8) translateX(10px);
+}

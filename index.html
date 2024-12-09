@@ -16,7 +16,42 @@
             earum saepe! Atque nulla porro.</p>
         <button class="btn"> Shop Now</button>
     </div>
-    <img src="images/s3.jfif" class="img">
+    <div class="container3">
+    <img src="images/s3.jfif" class="img" id="slide">
+    <img src="images/left-arrow.png" class="ico-action ico-left" onclick="prev()" />
+    <img src="images/right-arrow.png" class="ico-action ico-right" onclick="next()" />
+    </div>
+
+    <script>
+        const images = ["images/s1.jfif", "images/s2.jfif", "images/s3.jfif", "images/s4.jfif", "images/s5.jfif",];
+        let index = 0;
+        const slide = document.getElementById('slide');
+
+
+        function next() {
+            if (index < images.length - 1) {
+                index++;
+            }
+            else {
+                index = 0;
+            }
+
+            slide.src = images[index]
+        }
+
+        function prev() {
+            if (index > 0) {
+                index--;
+            }
+            else {
+                index = images.length - 1;
+            }
+            slide.src = images[index]
+        }
+
+
+
+    </script>
 </body>
 
 </html>
