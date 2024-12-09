@@ -1,0 +1,32 @@
+.container2{
+  text-align: center;
+}
+.heading{
+    color: #80002a;
+}
+.suh-heading{
+    font-size: 28px;
+    color: #ff1a66;
+}
+.btn{
+    font-size: 18px;
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color :#ff99bb ;
+}
+.btn:hover{
+    background-color: #ff1a66;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.para{
+    font-size: 20px;
+    margin: 18px 300px;
+}
+.img{
+    height: 400px;
+    width: 600px;
+    display: block;
+    margin: 20px auto;
+}
